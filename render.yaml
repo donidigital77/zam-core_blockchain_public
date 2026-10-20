@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: zam-core
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python zam_core.py
