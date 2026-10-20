@@ -1,1 +1,1 @@
-web: gunicorn main:app
+web: gunicorn zam_core:app
